@@ -4,7 +4,7 @@
 // va contenir juste les méthodes et les attribut
 class  Personnage{
 public:
-	//Le constructeur n'a aucun type de retour pas meme le void et il comprte le meme nom de la classe
+	// constructeur par défaut
 	Personnage();
 	//2em constructeur
 	Personnage( std::string n_nomArme, int n_degatsArme);
